@@ -88,4 +88,8 @@ public class Question {
     public int hashCode() {
         return Objects.hash(questionId, writer, title, contents, createdDate, countOfComment);
     }
+
+    static class Answer {
+
+    }
 }
