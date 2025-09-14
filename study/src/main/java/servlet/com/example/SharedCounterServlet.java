@@ -49,6 +49,9 @@ public class SharedCounterServlet extends HttpServlet {
         response.getWriter().write(String.valueOf(sharedCounter));
     }
 
+
+
+
     @Override
     public void destroy() {
         getServletContext().log("destroy() 호출");

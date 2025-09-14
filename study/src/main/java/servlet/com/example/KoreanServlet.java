@@ -23,6 +23,7 @@ public class KoreanServlet extends HttpServlet {
     @Override
     protected void service(final HttpServletRequest request, final HttpServletResponse response) throws IOException {
         getServletContext().log("service() 호출");
+        response.setContentType("text/text");
         response.getWriter().write(인코딩);
     }
 
